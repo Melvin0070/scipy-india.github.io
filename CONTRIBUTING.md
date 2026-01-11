@@ -90,11 +90,13 @@ Edit `event_details.json`:
 ```json
 {
   "title": "Event Name",
+  "day": "Day 1",
   "date": "DD Month, YYYY",
   "time": "HH:MM AM/PM IST",
   "location": "Online or venue",
   "cfp_link": "URL",
-  "rsvp_link": "URL"
+  "rsvp_link": "URL",
+  "livestream_link": "URL"
 }
 ```
 
