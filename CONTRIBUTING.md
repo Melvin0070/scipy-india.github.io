@@ -102,9 +102,11 @@ Edit `event_details.json`:
 
 ## Code Quality
 
-Pre-commit hooks automatically check:
+Pre-commit hooks automatically run checks such as:
 
 - Trailing whitespace
+- End-of-file fixes (e.g., ensuring a final newline)
+- Merge conflict marker detection
 - YAML/JSON validation
 - Markdown linting
 - Code formatting (Prettier)
